@@ -1,0 +1,38 @@
+PODS:
+  - ffmpeg-kit-ios-audio (4.5.1.LTS)
+  - ffmpeg_kit_flutter_audio (4.5.1.LTS):
+    - ffmpeg_kit_flutter_audio/audio-lts (= 4.5.1.LTS)
+    - Flutter
+  - ffmpeg_kit_flutter_audio/audio-lts (4.5.1.LTS):
+    - ffmpeg-kit-ios-audio (= 4.5.1.LTS)
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_background_service (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter_audio (from `.symlinks/plugins/ffmpeg_kit_flutter_audio/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_background_service (from `.symlinks/plugins/flutter_background_service/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-audio
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter_audio:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_audio/ios"
+  Flutter:
+    :path: Flutter
+  flutter_background_service:
+    :path: ".symlinks/plugins/flutter_background_service/ios"
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-audio: 8092366f80b7438c3f10063a262dda169d2cea2b
+  ffmpeg_kit_flutter_audio: 0b9cbbe996d138538e6023796b42c630ab490248
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_background_service: a4644870cc76287aaa6147b47107e52680b79c90
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
